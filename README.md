@@ -20,11 +20,11 @@ Example `now.json`
   "version": 2,
   "builds": [
     {
-      "src": "__sapper__/build/index.js",
+      "src": "__sapper__/build/server/server.js",
       "use": "now-sapper"
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "__sapper__/build/index.js" }]
+  "routes": [{ "src": "/(.*)", "dest": "__sapper__/build/server/server.js" }]
 }
 ```
 

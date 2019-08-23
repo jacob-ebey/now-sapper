@@ -54,6 +54,7 @@ try {
     'user',
     "${basePath}",
     '..',
+    '..',
     '..'
   )
   process.chdir(rootDir)
